@@ -1,30 +1,31 @@
 # Project information
-site_name: Workshop Setup
-site_url: https://remkohdev.github.io/workshop-setup
-site_author: IBM Developer
+site_name: Getting Started with IKS
+site_url: https://greyhoundforty.github.io/ibmcloud-kubernetes-getting-started 
+site_author: Ryan Tiffany
 
-# Repository
-repo_name: workshop-setup
-repo_url: https://github.com/remkohdev/workshop-setup
-edit_uri: edit/master/docs
+# # Repository
+# repo_name: workshop-setup
+# repo_url: https://github.com/remkohdev/workshop-setup
+# edit_uri: edit/master/docs
 
 # Navigation
 nav:
   - Welcome:
-    - About the workshop: README.md
-  - Workshop:
-    - Lab 0. Pre-work: pre-work/README.md
-    - Lab 1. Some Title: lab-1/README.md
+    - About this Guide: README.md
+  - Guides:
+    - 1. Pre-work: pre-work/README.md
+    - 2. Kubernetes Overview: 01-kubernetes/README.md
+    - 3. Deploy Kubernetes on IBM Cloud: 02-deploy-iks/README.md
+    - 4. Deploy and configure IKS Add-ons: 03-add-ons/README.md
   - References:
     - Additional Resources: resources/RESOURCES.md
     - Contributors: resources/CONTRIBUTORS.md
     - MkDocs Cheatsheet: resources/MKDOCS.md
-    - Admin Guide: resources/ADMIN.md
 
 ## DO NOT CHANGE BELOW THIS LINE
 
 # Copyright
-copyright: Copyright &copy; 2020 IBM Developer
+copyright: Copyright &copy; 2022 Ryan Tiffany
 
 # Theme
 theme:
@@ -50,15 +51,13 @@ plugins:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/ibm
+      link: https://github.com/greyhoundforty
     - icon: fontawesome/brands/twitter
-      link: https://twitter.com/ibmdeveloper
+      link: https://twitter.com/ryantiffany
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/company/ibm/
-    - icon: fontawesome/brands/youtube
-      link: https://www.youtube.com/user/developerworks
     - icon: fontawesome/brands/dev
-      link: https://dev.to/ibmdeveloper
+      link: https://dev.to/greyhoundforty
 
 # Extensions
 markdown_extensions:
